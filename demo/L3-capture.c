@@ -24,7 +24,7 @@
 #include <mastik/util.h>
 #include <mastik/l3.h>
 
-#define SAMPLES 1000
+#define SAMPLES 1
 
 
 int main(int ac, char **av) {
