@@ -33,6 +33,7 @@ int main(int ac, char **av) {
   l3pp_t l3 = l3_prepare(NULL, NULL);
 
   int nsets = l3_getSets(l3);
+  printf("nsets: %d\n", nsets);
   int nmonitored = nsets/64;
 
   for (int i = 17; i < nsets; i += 64)
